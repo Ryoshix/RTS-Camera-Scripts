@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public sealed class CameraZoom : MonoBehaviour, ICameraHandable
+public sealed class CameraZoom : MonoBehaviour
 {
     [SerializeField] private Transform _cameraHolderTransform;
     [SerializeField] private float _speed = 2f;
